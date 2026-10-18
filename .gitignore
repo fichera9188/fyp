@@ -1,0 +1,33 @@
+# Local device credentials and generated TLS certificate/key pair
+NetworkSecrets.h
+key_der.h
+cert_der.h
+heltec-sos.cer
+*.key
+*.pem
+*.pfx
+*.p12
+.env
+.env.*
+
+# Private build outputs, device backups and runtime data
+build/
+backups/
+.experiment-runtime/
+experiments/private/
+*.bin
+*.elf
+*.map
+*.exe
+*.obj
+*.o
+
+# Temporary files and dependency caches
+tmp/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
